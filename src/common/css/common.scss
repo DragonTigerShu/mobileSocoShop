@@ -1,0 +1,115 @@
+/**
+售后订单信息
+  
+**/
+.padding {
+   padding: 1rem;    
+}
+
+.white {
+    color:white;
+}
+.foxflex{
+    position: fixed;
+    position: relative;
+    width: 100%;
+
+}
+.after_order{
+    padding-top: 50px;
+    .after_seller{
+        background: #c8161e;
+        padding: 1rem;
+        h4{
+            padding-top: 10px;
+            font-size: 16px;
+            @extend .white;
+        }
+        p{
+            @extend .white;
+            margin-bottom: 0;
+            span{
+                color: #fff;
+                font-size: 14px;
+            }
+        }
+    }
+    .seller_goods{
+        background: #fff;
+        h3{
+             padding: 1rem 0 0 1rem;
+             font-size: 16px;
+        }
+    }
+    .custom{
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background: #fff;
+        h3{
+            font-size: 16px;
+
+        }
+        .Refund{
+            color: #c8161e;
+            font-size: 13px;
+            margin: 1rem 0;
+        }
+    }
+    .pay_freight{
+        border-bottom: 1px solid #eee;
+        background: #fff;
+        height: 120px;
+        border-bottom: 1px solid #eee;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;  /**垂直居中*/
+        >div{
+        font-size: 16px;
+        color: #333;
+        span{
+            font-size: 18px;
+            color: #c8161e;
+        }
+        }
+    }
+    //详细地址
+    .address{
+        padding: 1rem;
+        background: #fff;
+        .address_center{
+            line-height: 26px;
+            
+            small{
+                font-size: 14px;
+                color: #5c6670;
+            }
+        }
+        p{
+            margin-top:30px;
+            color: #c8161e;
+            font-size: 14px;
+        }
+       
+    }
+    //物流信息
+    .logistics{
+        background: #fff;
+        margin-top: 1rem;
+        margin-bottom: .9rem;
+        h3{
+            font-size: 16px;
+            margin:.9rem 0;
+        }
+        input[type='text']{
+            height: 45px;
+        } 
+            small{
+                padding-bottom: 0.6rem;
+                display: inline-block;
+                font-size: 14px;
+                color: #5c6670;
+            }
+        
+    }
+}
